@@ -231,8 +231,13 @@ button {
     padding: 5px 0px;
 }
 @media (max-width: 570px) {
-#fixed {
-        height: 15vh;
+    
+    #fixed {
+        height: 152px;
+    }
+    #footer {
+        text-align: left;
+        height: 45px;
     }
 }
 @media (max-width: 990px) {
