@@ -62,7 +62,7 @@ body {
 #header {
     margin-top: 12px;
 }
-#landing {
+#content {
     margin-top: 180px;
 }
 h1 {
@@ -230,13 +230,18 @@ button {
     font-size: 12px;
     padding: 5px 0px;
 }
+
+#fine {
+    line-height: 200%;
+    text-align: left;
+}
 @media (max-width: 570px) {
     
     #fixed {
         height: 152px;
     }
     #footer {
-        text-align: left;
+        text-align: center;
         height: 45px;
     }
 }
