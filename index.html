@@ -16,10 +16,20 @@
         <script src="scroll.js" type="text/javascript"></script>
         <script>
             $(document).ready( function() {
-    $("#load_privacy").on("click", function() {
-        $("#content").load("privacy.html");
-    });
-});
+                $("#load_privacy").on("click", function() {
+                    $("#content").load("privacy.html");
+                });
+            });
+            $(document).ready( function() {
+                $("#load_tos").on("click", function() {
+                    $("#content").load("termsandconditions.html");
+                });
+            });
+            $(document).ready( function() {
+                $("#load_legal").on("click", function() {
+                    $("#content").load("legal.html");
+                });
+            });
         </script>
     </head>
 
@@ -49,15 +59,15 @@
                     <div class="container">
                         <div class="col-xs-12 col-md-6 service-block service-block-left">
                             <img src="images/clipboard.svg" class="service-icon" alt="consultation">
-                            <h2>CONSULTATION & EVALUATION</h2>
-                            <p>We offer our knowledge and expertise in the medical field. Before we come in to do Preventative Maintenance & Corrective Work, we like to analyze the situation and let you know what needs to be done before we do it. Clear and constant communication is one of our priorities.
+                            <h2>CONSULTATION &amp; EVALUATION</h2>
+                            <p>We offer our knowledge and expertise in the medical field. Before we come in to do Preventative Maintenance &amp; Corrective Work, we like to analyze the situation and let you know what needs to be done before we do it. Clear and constant communication is one of our priorities.
                                 <br /> <br />
                                 Whether it is before or after clinical hours, we will come when it is most convenient for you. We will come visit your site on the same day as you contact us, guaranteed.</p>
                             <h3>EMERGENCY &emsp;|&emsp; NON-EMERGENCY</h3>
                         </div>
                         <div class="col-xs-12 col-md-6 service-block service-block-right">
                             <img src="images/screw.svg" class="service-icon" alt="consultation">
-                            <h2>PREVENTATIVE MAINTENANCE & EQUIPMENT REPAIR</h2>
+                            <h2>PREVENTATIVE MAINTENANCE &amp; EQUIPMENT REPAIR</h2>
                             <p>Our Biomedical Engineering Technologists are trained and experienced in Preventative Maintenance and Equipment Repair. Preventative Maintenance can be annual device inspection and/or new device acceptance. Corrective Work is fancy for 'repair'.
                                 <br /> <br />
                                 In emergency cases where you need a device accepted or repaired right away, we will do whatever we can to get the job done as fast and as safely as possible.</p>
@@ -129,9 +139,14 @@
             </div>
             <div id="footer">
                 <div id="navigation">
+                    <!--                    <p>BPrime Medical Ltd. &copy; 2016</p>-->
+                    <ul id="copyright">
+                        <li>BPrime Medical Ltd. &copy; 2016</li>
+                    </ul>
                     <ul>
                         <li><a href="#" id="load_privacy">Privacy Policy</a></li>
-                        <li><a href="#team">Terms & Conditions</a></li>
+                        <li><a href="#" id ="load_tos">Terms &amp; Conditions</a></li>
+                        <li><a href="#" id ="load_legal">Legal Disclaimer</a></li>
                         <li><a href="tel: 1-778-385-6264">+1-778-385-6264</a> | <a href="mailto:info@bprimemedical.com" class="contact-header-link">info@bprimemedical.com</a></li>
                     </ul>
                 </div>

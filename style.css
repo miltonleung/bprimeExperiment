@@ -3,8 +3,7 @@ body {
     text-align: center;
 }
 .home-bg {
-    background-image: linear-gradient(180deg, white 0%, #fdfdfd 8%, #f7f7f7 26%, #fbfbfb 43%, white 50%, #f1f1f1 70%, #f1f1f1 100%);
-    background-repeat:  no-repeat;
+    background-color: #FAFAFA;
 }
 .confirmation-bg {
     background-color: #FBFBFB;
@@ -230,10 +229,15 @@ button {
     font-size: 12px;
     padding: 5px 0px;
 }
-
 #fine {
+    margin: 0 auto;
     line-height: 200%;
     text-align: left;
+    width: 90%;
+}
+#copyright {
+    text-align: left;
+    float: left;
 }
 @media (max-width: 570px) {
     
