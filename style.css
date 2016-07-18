@@ -63,7 +63,7 @@ body {
     margin-top: 12px;
 }
 #landing {
-    margin-top: 200px;
+    margin-top: 180px;
 }
 h1 {
     text-align: center;
@@ -230,13 +230,14 @@ button {
     font-size: 12px;
     padding: 5px 0px;
 }
-
+@media (max-width: 570px) {
+#fixed {
+        height: 15vh;
+    }
+}
 @media (max-width: 990px) {
     #services .service-block-right {
         padding-left: 0px;
-    }
-    #fixed {
-        height: 15vh;
     }
 }
 @media (min-width: 768px) and (max-width: 1199px) {
