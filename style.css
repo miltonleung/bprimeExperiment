@@ -1,6 +1,7 @@
 body {
     font-family: Muli;
     text-align: center;
+    overflow-y: scroll;
 }
 .home-bg {
     background-color: #FAFAFA;
@@ -52,6 +53,9 @@ body {
     font-size: 20px;
     color: #456F98;
     text-decoration: none;
+}
+#navigation a:focus, a:hover {
+    color: #456F98;
 }
 #wrapper {
     margin-left: auto;
